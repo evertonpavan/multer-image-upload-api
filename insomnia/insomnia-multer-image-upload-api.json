@@ -1,0 +1,263 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2021-06-25T19:44:00.747Z",
+    "__export_source": "insomnia.desktop.app:v2021.3.0",
+    "resources": [
+        {
+            "_id": "req_832fa6de89874a07ba46636cd9297f32",
+            "parentId": "fld_5847f18ac2cc4e069d8ce5b1d52fa288",
+            "modified": 1624650171075,
+            "created": 1617886899530,
+            "url": "{{ baseUrl }}/images/upload-single",
+            "name": "Upload Image Single",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "multipart/form-data",
+                "params": [
+                    {
+                        "name": "image",
+                        "value": "",
+                        "description": "",
+                        "id": "pair_65814506918a47d08bdd2bc56cfa9342",
+                        "type": "file"
+                    }
+                ]
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "multipart/form-data",
+                    "id": "pair_91b4bb75368b4a999003bd465b640095"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1617886899530,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "fld_5847f18ac2cc4e069d8ce5b1d52fa288",
+            "parentId": "wrk_bf5c6ae5265d454a81ff98c60a458df0",
+            "modified": 1617886908572,
+            "created": 1617886908572,
+            "name": "Images",
+            "description": "",
+            "environment": {},
+            "environmentPropertyOrder": null,
+            "metaSortKey": -1617886908572,
+            "_type": "request_group"
+        },
+        {
+            "_id": "wrk_bf5c6ae5265d454a81ff98c60a458df0",
+            "parentId": null,
+            "modified": 1617886892805,
+            "created": 1617886892805,
+            "name": "MULTER API IMAGES",
+            "description": "",
+            "scope": "collection",
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_2c3da221a8a345749bfb775d14f5193a",
+            "parentId": "fld_5847f18ac2cc4e069d8ce5b1d52fa288",
+            "modified": 1624650159197,
+            "created": 1624639530006,
+            "url": "{{ baseUrl }}/images/upload-array",
+            "name": "Upload Image Array",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "multipart/form-data",
+                "params": [
+                    {
+                        "name": "image",
+                        "value": "",
+                        "description": "",
+                        "id": "pair_621c1f343f0c4441afab1cd7c149a71c",
+                        "type": "file"
+                    },
+                    {
+                        "name": "image",
+                        "value": "",
+                        "description": "",
+                        "id": "pair_727694bd614c4a1481e5cd335bb780dd",
+                        "type": "file"
+                    },
+                    {
+                        "name": "image",
+                        "value": "",
+                        "description": "",
+                        "id": "pair_de9e827bdc5b412b959f6926681cb907",
+                        "type": "file"
+                    },
+                    {
+                        "name": "image",
+                        "value": "",
+                        "description": "",
+                        "id": "pair_00e46c7a52c74bf2a486f0aa26ddd8e4",
+                        "type": "file",
+                        "disabled": true
+                    }
+                ]
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "multipart/form-data",
+                    "id": "pair_91b4bb75368b4a999003bd465b640095"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1617378593622,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_2bfc90e8e64f4245b3e0b43f1ca666e6",
+            "parentId": "fld_5847f18ac2cc4e069d8ce5b1d52fa288",
+            "modified": 1624650183649,
+            "created": 1624642148017,
+            "url": "{{ baseUrl }}/images/upload-multiple",
+            "name": "Upload Image Multiple",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "multipart/form-data",
+                "params": [
+                    {
+                        "name": "image",
+                        "value": "",
+                        "description": "",
+                        "id": "pair_2b585403820a41f7a257c254e8a731b5",
+                        "type": "file"
+                    },
+                    {
+                        "name": "gallery",
+                        "value": "",
+                        "description": "",
+                        "id": "pair_be6940f411344b479f179945606da28c",
+                        "type": "file"
+                    },
+                    {
+                        "name": "gallery",
+                        "value": "",
+                        "description": "",
+                        "id": "pair_804e1e9600e847a385e27f59df406d1d",
+                        "type": "file"
+                    },
+                    {
+                        "name": "gallery",
+                        "value": "",
+                        "description": "",
+                        "id": "pair_0bc6ea67be9645d08121ed8e73355bd0",
+                        "type": "file"
+                    }
+                ]
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "multipart/form-data",
+                    "id": "pair_91b4bb75368b4a999003bd465b640095"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1617124440668,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_e3f2ca00535f460487dd00dafa1cc01d",
+            "parentId": "fld_5847f18ac2cc4e069d8ce5b1d52fa288",
+            "modified": 1624650092452,
+            "created": 1624644444472,
+            "url": "{{ baseUrl }}/images/delete",
+            "name": "Delete Image",
+            "description": "",
+            "method": "DELETE",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"filename\": \"\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_590e7c92ced14027883964f1baaaade9"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1616997364191,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "env_c6a8b9aad8a5c0cca75b9e71581b8108ce40f737",
+            "parentId": "wrk_bf5c6ae5265d454a81ff98c60a458df0",
+            "modified": 1617887044018,
+            "created": 1617886893088,
+            "name": "Base Environment",
+            "data": {
+                "baseUrl": "http://localhost:3000"
+            },
+            "dataPropertyOrder": {
+                "&": [
+                    "baseUrl"
+                ]
+            },
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1617886893088,
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_c6a8b9aad8a5c0cca75b9e71581b8108ce40f737",
+            "parentId": "wrk_bf5c6ae5265d454a81ff98c60a458df0",
+            "modified": 1617886893095,
+            "created": 1617886893095,
+            "name": "Default Jar",
+            "cookies": [],
+            "_type": "cookie_jar"
+        },
+        {
+            "_id": "spc_5d33a870b7944582a907b57521f5623b",
+            "parentId": "wrk_bf5c6ae5265d454a81ff98c60a458df0",
+            "modified": 1617886892816,
+            "created": 1617886892816,
+            "fileName": "MULTER API IMAGES",
+            "contents": "",
+            "contentType": "yaml",
+            "_type": "api_spec"
+        }
+    ]
+}

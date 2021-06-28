@@ -19,6 +19,9 @@ To serve in the browser
 $ yarn start
 ```
 
+## Test the requests with Insomnia
+[Example Collection Multer Images Upload API](insomnia/insomnia-multer-image-upload-api.json)
+
 
 ### Author
 
